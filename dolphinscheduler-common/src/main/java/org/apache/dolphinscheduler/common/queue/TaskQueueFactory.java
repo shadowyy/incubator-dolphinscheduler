@@ -36,7 +36,7 @@ public class TaskQueueFactory {
 
   /**
    * get instance (singleton)
-   *
+   * //TODO 被重复加载
    * @return instance
    */
   public static ITaskQueue getTaskQueueInstance() {
